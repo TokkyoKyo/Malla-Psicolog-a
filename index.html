@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Psicología</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f6ff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #1d4ed8;
+    }
+    .malla {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 12px;
+      overflow-x: auto;
+    }
+    .semestre {
+      background: #dbeafe;
+      border: 2px solid #60a5fa;
+      padding: 10px;
+      border-radius: 8px;
+      min-width: 180px;
+    }
+    .semestre h2 {
+      text-align: center;
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+    .ramo {
+      background: #eff6ff;
+      border-left: 5px solid #3b82f6;
+      margin-bottom: 8px;
+      padding: 8px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .ramo:hover {
+      background: #bfdbfe;
+      cursor: pointer;
+    }
+    .optativo {
+      border-left: 5px solid #60a5fa;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Malla Interactiva - Psicología</h1>
+
+<div class="malla">
+  <!-- I Semestre -->
+  <div class="semestre">
+    <h2>I Semestre</h2>
+    <div class="ramo">Filosofía (5 SCT)</div>
+    <div class="ramo">Psicobiología (5 SCT)</div>
+    <div class="ramo">Métodos de la Investigación Social (5 SCT)</div>
+    <div class="ramo">Historia Social de Chile (5 SCT)</div>
+    <div class="ramo">Curso Transversal FACSO I (2 SCT)</div>
+    <div class="ramo">Inglés I (3 SCT)</div>
+  </div>
+
+  <!-- II Semestre -->
+  <div class="semestre">
+    <h2>II Semestre</h2>
+    <div class="ramo">Epistemología de las Ciencias Sociales (5 SCT)</div>
+    <div class="ramo">Procesos Psicológicos Básicos (5 SCT)</div>
+    <div class="ramo">Psicología de la Personalidad (5 SCT)</div>
+    <div class="ramo">Estadística I (5 SCT)</div>
+    <div class="ramo">Procesos Básicos de Aprendizaje (5 SCT)</div>
+    <div class="ramo">CFG (2 SCT)</div>
+    <div class="ramo">Inglés II (3 SCT)</div>
+  </div>
+
+  <!-- III Semestre -->
+  <div class="semestre">
+    <h2>III Semestre</h2>
+    <div class="ramo">Teorías y Sistemas Psicológicos (6 SCT)</div>
+    <div class="ramo">Psicopatología (4 SCT)</div>
+    <div class="ramo">Psicología del Desarrollo I (5 SCT)</div>
+    <div class="ramo">Estadística II (4 SCT)</div>
+    <div class="ramo">Psicología Social I (4 SCT)</div>
+    <div class="ramo">Neurofisiología (4 SCT)</div>
+    <div class="ramo">Curso Transversal FACSO II (2 SCT)</div>
+    <div class="ramo">Inglés III (3 SCT)</div>
+  </div>
+
+  <!-- IV Semestre -->
+  <div class="semestre">
+    <h2>IV Semestre</h2>
+    <div class="ramo">Introducción a la Evaluación Psicológica (6 SCT)</div>
+    <div class="ramo">Psiquiatría (4 SCT)</div>
+    <div class="ramo">Psicología del Desarrollo II (4 SCT)</div>
+    <div class="ramo">Metodología Cualitativa (4 SCT)</div>
+    <div class="ramo">Psicología Social II (4 SCT)</div>
+    <div class="ramo">Neurociencia Cognitiva (4 SCT)</div>
+    <div class="ramo">Curso Artístico / Deportivo (2 SCT)</div>
+    <div class="ramo">Inglés IV (3 SCT)</div>
+  </div>
+
+  <!-- V Semestre -->
+  <div class="semestre">
+    <h2>V Semestre</h2>
+    <div class="ramo">Psicología del Trabajo y las Organizaciones (6 SCT)</div>
+    <div class="ramo">Psicología Clínica (6 SCT)</div>
+    <div class="ramo">Psicología Educacional (6 SCT)</div>
+    <div class="ramo">Psicología Jurídica (6 SCT)</div>
+    <div class="ramo">Psicología Comunitaria (6 SCT)</div>
+  </div>
+
+  <!-- VI Semestre -->
+  <div class="semestre">
+    <h2>VI Semestre</h2>
+    <div class="ramo optativo">Cursos Optativos (4 SCT)</div>
+    <div class="ramo">Curso Transversal FACSO III (2 SCT)</div>
+  </div>
+
+  <!-- VII Semestre -->
+  <div class="semestre">
+    <h2>VII Semestre</h2>
+    <div class="ramo optativo">Cursos Optativos (28 SCT)</div>
+  </div>
+
+  <!-- VIII Semestre -->
+  <div class="semestre">
+    <h2>VIII Semestre</h2>
+    <div class="ramo">Seminario de Grado I (6 SCT)</div>
+    <div class="ramo optativo">Cursos Optativos (22 SCT)</div>
+    <div class="ramo">Curso Transversal FACSO IV (2 SCT)</div>
+  </div>
+
+  <!-- IX Semestre -->
+  <div class="semestre">
+    <h2>IX Semestre</h2>
+    <div class="ramo">Práctica Profesional I (14 SCT)</div>
+    <div class="ramo">Seminario de Práctica I (4 SCT)</div>
+    <div class="ramo">Curso de Formación Profesional (12 SCT)</div>
+  </div>
+
+  <!-- X Semestre -->
+  <div class="semestre">
+    <h2>X Semestre</h2>
+    <div class="ramo">Práctica Profesional II (14 SCT)</div>
+    <div class="ramo">Seminario de Práctica II (4 SCT)</div>
+    <div class="ramo">Curso de Formación Profesional (12 SCT)</div>
+  </div>
+</div>
+
+</body>
+</html>
